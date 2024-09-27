@@ -70,6 +70,9 @@ class _WeatherPageStateState extends State<WeatherPageState> {
       } else if (_main == 'Thunderstorm') {
         _bgImg = AppImages.thunderstorm;
         _iconImg = AppIcons.Thunderstorm;
+      } else if (_main == 'Snow') {
+        _bgImg = AppImages.snow;
+        _iconImg = AppIcons.Snow;
       } else {
         _bgImg = AppImages.haze;
         _iconImg = AppIcons.Haze;
